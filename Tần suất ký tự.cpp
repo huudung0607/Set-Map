@@ -26,6 +26,13 @@ int main()
 		cout << x.first << " " << x.second << endl;
 		break;
 	}
+	cout << endl;
+	for (map<char, int>::reverse_iterator it = mp.rbegin(); it != mp.rend(); it++)
+	{
+		cout << it->first << " " << it->second << endl;
+		break;
+	}
+	cout << endl;
 	for (auto x : mp)
 	{
 		cout << x.first << " " << x.second << endl;
